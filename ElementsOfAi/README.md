@@ -1,0 +1,1 @@
+[Elements of AI course](https://course.elementsofai.com) by the University of Helsinki
