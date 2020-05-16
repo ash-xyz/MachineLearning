@@ -4,4 +4,4 @@ I followed the lecutres as found here: https://www.youtube.com/playlist?list=PLo
 
 I followed the syllabus as found here: http://cs229.stanford.edu/syllabus-autumn2018.html
 
-Problem sets were found here: https://github.com/zhixuan-lin/cs229-ps-2018
+Problem sets were provided by the very generous [Amartya Saikia](https://github.com/SKKSaikia/CS229_ML)
