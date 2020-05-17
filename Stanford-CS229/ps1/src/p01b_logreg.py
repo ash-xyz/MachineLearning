@@ -17,9 +17,13 @@ def main(train_path, eval_path, pred_path):
     # *** START CODE HERE ***
     # Train a logistic regression classifier
     model = LogisticRegression(eps=1e-5)
-    model.fit(x_train,y_train)
+    model.fit(x_train, y_train)
     # Plot decision boundary on top of validation set set
+    x_val, y_val = util.load_dataset(eval_path, add_intercept=True)
+    y_pred = model.predict(x_train)
+    plot = util.plot(x_val, y_val, model.theta, f'{pred_path}.png')
     # Use np.savetxt to save predictions on eval set to pred_path
+    np.savetxt(pred_path, y_pred)
     # *** END CODE HERE ***
 
 
@@ -40,6 +44,28 @@ class LogisticRegression(LinearModel):
             y: Training example labels. Shape (m,).
         """
         # *** START CODE HERE ***
+
+        m, n = x.shape
+        if self.theta is None:
+            self.theta = np.zeros(n)
+
+        def sigmoid(z): return 1/(1+np.exp(-z))
+
+        while True:
+            theta = self.theta
+            n = x.dot(theta)
+            # Computing the derivative of J
+            J = - (1 / m) * (y - sigmoid(n)).dot(x)
+
+            # Compute Hessian Inverse
+            H_inv = np.linalg.inv(
+                (1/m) * sigmoid(n).dot(sigmoid(1-n)) * (x.T).dot(x))
+
+            # Update Model
+            self.theta = theta - H_inv.dot(J)
+
+            if(np.linalg.norm(self.theta - theta, ord=1) < self.eps):
+                break
         # *** END CODE HERE ***
 
     def predict(self, x):
@@ -52,4 +78,6 @@ class LogisticRegression(LinearModel):
             Outputs of shape (m,).
         """
         # *** START CODE HERE ***
+        def sigmoid(z): return 1/(1+np.exp(-z))
+        return sigmoid(x.dot(self.theta))
         # *** END CODE HERE ***
