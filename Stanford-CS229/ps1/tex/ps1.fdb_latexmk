@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1589663179 "/home/ashraf/Desktop/Projects/MachineLearning/Stanford-CS229/ps1/tex/ps1.tex" "/home/ashraf/Desktop/Projects/MachineLearning/Stanford-CS229/ps1/tex/ps1.pdf" "ps1" 1589663179
+["pdflatex"] 1589745999 "/home/ashraf/Desktop/Projects/MachineLearning/Stanford-CS229/ps1/tex/ps1.tex" "/home/ashraf/Desktop/Projects/MachineLearning/Stanford-CS229/ps1/tex/ps1.pdf" "ps1" 1589745999
   "/etc/texmf/web2c/texmf.cnf" 1585051258 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ashraf/Desktop/Projects/MachineLearning/Stanford-CS229/ps1/tex/ps1.aux" 1589663179 51 37aa701000839b123a1beab808ca8daa ""
+  "/home/ashraf/Desktop/Projects/MachineLearning/Stanford-CS229/ps1/tex/ps1.aux" 1589745999 51 37aa701000839b123a1beab808ca8daa ""
   "/home/ashraf/Desktop/Projects/MachineLearning/Stanford-CS229/ps1/tex/ps1.tex" 1538825980 3383 da1de8abe960195118c9b8b8fe66bbeb ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -27,6 +27,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1480098733 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1480098733 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb" 1480098733 35022 e40946b20bfdcd1099eafb2bcd9f25dd ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb" 1480098733 24457 5cbb7bdf209d5d1ce9892a9b80a307cc ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1480098733 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1480098733 37944 359e864bd06cde3b1cf57bb20757fb06 ""
@@ -88,7 +89,7 @@
   "00-instructions/01-general.tex" 1538575922 898 090b5f74f3e6b9746dee1101a059681c ""
   "00-instructions/02-submission.tex" 1538575922 725 593f0d20cf74df4cc79613dfe4d04fe6 ""
   "01-linreg/00-main.tex" 1538575922 1457 cae13380b130b09b2e910ee5d11fdbea ""
-  "01-linreg/01-logreg-sol.tex" 1589663179 28 e3bce0cc248592e7dce011faba9b3634 ""
+  "01-linreg/01-logreg-sol.tex" 1589745999 396 6de9a3098d1df831ab51206c43f58ceb ""
   "01-linreg/01-logreg.tex" 1538575922 1035 e455147c411ff122660e28858a916cc3 ""
   "01-linreg/02-solve-logreg-sol.tex" 1538825320 28 e3bce0cc248592e7dce011faba9b3634 ""
   "01-linreg/02-solve-logreg.tex" 1538739646 570 08d78ebbda8cf6ae132e230915cf192d ""
@@ -138,11 +139,11 @@
   "05-weighted/02-impl.tex" 1538739646 916 ac1e632c490c454e225fd77683a6c86e ""
   "05-weighted/03-tau-sol.tex" 1538825320 28 e3bce0cc248592e7dce011faba9b3634 ""
   "05-weighted/03-tau.tex" 1538739646 582 d5fb65e09e51652b7d7f956f28bf5143 ""
-  "ps1.aux" 1589663179 51 37aa701000839b123a1beab808ca8daa ""
+  "ps1.aux" 1589745999 51 37aa701000839b123a1beab808ca8daa ""
   "ps1.tex" 1538825980 3383 da1de8abe960195118c9b8b8fe66bbeb ""
   (generated)
+  "ps1.pdf"
+  "ps1.aux"
   "/home/ashraf/Desktop/Projects/MachineLearning/Stanford-CS229/ps1/tex/ps1.log"
   "/home/ashraf/Desktop/Projects/MachineLearning/Stanford-CS229/ps1/tex/ps1.pdf"
   "ps1.log"
-  "ps1.aux"
-  "ps1.pdf"

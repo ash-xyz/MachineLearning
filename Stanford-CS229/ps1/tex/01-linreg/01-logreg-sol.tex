@@ -1,2 +1,9 @@
 \begin{answer}
+    \begin{equation}
+        \frac{\partial}{\partial \theta_{j}}J(\theta) = -\frac{1}{m}\sum_{i=1}^{m}(y^{(i)}-h_{\theta}(x^{(i)}))x_j^{(i)} \\
+    \end{equation}
+    So
+    \begin{align}
+        \frac{\partial J(\theta)}{\partial \theta_{j}\partial \theta_{k}} = \frac{1}{m}\sum_{i=1}^{m}(h_{\theta}(x^{(i)}))(1-h_{\theta}(x^{(i)}))x_j^{(i)}x_k^{(i)}
+    \end{align}
 \end{answer}

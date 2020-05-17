@@ -16,6 +16,8 @@ def main(train_path, eval_path, pred_path):
 
     # *** START CODE HERE ***
     # Train a logistic regression classifier
+    model = LogisticRegression(eps=1e-5)
+    model.fit(x_train,y_train)
     # Plot decision boundary on top of validation set set
     # Use np.savetxt to save predictions on eval set to pred_path
     # *** END CODE HERE ***
