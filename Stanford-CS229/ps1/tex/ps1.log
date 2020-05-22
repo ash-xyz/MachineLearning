@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.21)  21 MAY 2020 01:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.21)  22 MAY 2020 02:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -307,6 +307,16 @@ Overfull \hbox (47.23378pt too wide) detected at line 10
 [][]
  []
 
+
+Overfull \hbox (17.33075pt too wide) detected at line 22
+[][]
+ []
+
+
+Overfull \hbox (14.45538pt too wide) detected at line 24
+\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = 1 \OMS/cmsy/m/n/10 j \OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 ^^^; ^^V[]; ^^V[]; \OT1/cmr/m/n/10 ^^F) = []
+ []
+
 )) (/home/ashraf/Desktop/Projects/MachineLearning/Stanford-CS229/ps1/tex/01-linreg/04-gda-ll.tex [4
 
 ] (/home/ashraf/Desktop/Projects/MachineLearning/Stanford-CS229/ps1/tex/01-linreg/04-gda-ll-sol.tex)) (/home/ashraf/Desktop/Projects/MachineLearning/Stanford-CS229/ps1/tex/01-linreg/05-solve-gda.tex [5
@@ -365,15 +375,15 @@ Overfull \hbox (0.3484pt too wide) in paragraph at lines 2--10
 
 ] (/home/ashraf/Desktop/Projects/MachineLearning/Stanford-CS229/ps1/tex/ps1.aux) ) 
 Here is how much of TeX's memory you used:
- 5499 strings out of 492982
- 91571 string characters out of 6134896
- 146135 words of memory out of 5000000
- 8810 multiletter control sequences out of 15000+600000
+ 5500 strings out of 492982
+ 91587 string characters out of 6134896
+ 148135 words of memory out of 5000000
+ 8811 multiletter control sequences out of 15000+600000
  7118 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,12n,38p,385b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /home/ashraf/Desktop/Projects/MachineLearning/Stanford-CS229/ps1/tex/ps1.pdf (25 pages, 252714 bytes).
+Output written on /home/ashraf/Desktop/Projects/MachineLearning/Stanford-CS229/ps1/tex/ps1.pdf (25 pages, 254639 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  106 compressed objects within 2 object streams
