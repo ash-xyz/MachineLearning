@@ -17,8 +17,14 @@ def main(train_path, eval_path, pred_path):
 
     # *** START CODE HERE ***
     # Train a GDA classifier
+    model = GDA()
+    model.fit(x_train, y_train)
     # Plot decision boundary on validation set
+    x_val, y_val = util.load_dataset(eval_path, add_intercept=False)
+    y_pred = model.predict(x_val)
+    util.plot(x_val, y_val, model.theta, '{}.png'.format(pred_path))
     # Use np.savetxt to save outputs from validation set to pred_path
+    np.savetxt(pred_path, y_pred)
     # *** END CODE HERE ***
 
 
@@ -43,7 +49,18 @@ class GDA(LinearModel):
         """
         # *** START CODE HERE ***
         # Find phi, mu_0, mu_1, and sigma
+        m, n = x.shape
+
+        phi = (y == 1).sum()/m
+        mu_0 = x[y == 0].sum(axis=0) / (y == 0).sum()
+        mu_1 = x[y == 1].sum(axis=0)/(y == 1).sum()
+        sigma = (1/m)*(x[y == 0] - mu_0).T.dot(x[y == 1] - mu_0)
         # Write theta in terms of the parameters
+        sigma_inverse = np.linalg.inv(sigma)
+        theta = sigma_inverse.dot(mu_1-mu_0)
+        theta = np.hstack([0.5 * (mu_0.T.dot(sigma_inverse).dot(mu_0) -
+                                  mu_1.T.dot(sigma_inverse).dot(mu_1)) - np.log((1 - phi) / phi), theta])
+        self.theta = theta
         # *** END CODE HERE ***
 
     def predict(self, x):
@@ -56,4 +73,9 @@ class GDA(LinearModel):
             Outputs of shape (m,).
         """
         # *** START CODE HERE ***
+        def sigmoid(z): return 1 / (1 + np.exp(-z))
+        x = util.add_intercept(x)
+        probability = sigmoid(x.dot(self.theta))
+        predictions = (probability >= 0.5).astype(np.int)
+        return predictions
         # *** END CODE HERE
