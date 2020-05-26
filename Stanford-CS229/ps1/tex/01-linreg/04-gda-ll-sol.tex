@@ -1,17 +1,18 @@
 \begin{answer}\\
     We can rewrite the log likelihood as follows:
     $$
-    \begin{aligned}
-        \sum_{i=1}^m log(p(x^{(i)} | y^{(i)}; \mu_{0}, \mu_1, \Sigma) p(y^{(i)}))
-    \end{aligned}
+        \begin{aligned}
+             & \sum_{i=1}^m log(p(x^{(i)} | y^{(i)}; \mu_{0}, \mu_1, \Sigma) p(y^{(i)}))          \\
+             & = \sum_{i=1}^m log(p(x^{(i)} | y^{(i)}; \mu_{0}, \mu_1, \Sigma)) + log(p(y^{(i)}))
+        \end{aligned}
     $$
     If we set the partial deriviates equal to zero, we can find the maximum likelihood estimates:
     $$
-    \begin{aligned}
-        \frac{\partial \ell}{\partial \phi} =\\
-        \frac{\partial \ell}{\partial \mu_0} =\\
-        \frac{\partial \ell}{\partial \mu_1} =\\
-        \frac{\partial \ell}{\partial \Sigma} =\\
-    \end{aligned}
+        \begin{aligned}
+            \frac{\partial \ell}{\partial \phi} =\sum_{i=1}^{m} y^{(i)}\frac{1}{\phi} + (1-y^{(i)})\frac{1}{1-\phi} \\ %\sum_{i=1}^m \frac{1}{\phi}
+            \frac{\partial \ell}{\partial \mu_0} = - \sum_{i=1}^m1\{y^{(i)} = 0\} \frac{x^{(i)} - \mu_0}{\sigma^2} = 0\\
+            \frac{\partial \ell}{\partial \mu_1} =- \sum_{i=1}^m1\{y^{(i)} = 1\} \frac{x^{(i)} - \mu_1}{\sigma^2} = 0\\
+            \frac{\partial \ell}{\partial \Sigma} \sum_{i=1}^m -\frac{1}{2\sigma^2} + \frac{(x^{(i)} - \mu_{y^{(i)}})^2}{2\sigma^4} = 0
+        \end{aligned}
     $$
 \end{answer}
