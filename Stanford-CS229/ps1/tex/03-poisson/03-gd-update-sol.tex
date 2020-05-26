@@ -1,2 +1,12 @@
 \begin{answer}
+    $$
+    \begin{aligned}
+        l(\theta) &= log(\prod_{i=1}^m p(y^{(i)}|x^{(i)};\theta))\\
+                &= \sum_{i=1}^m log(p(y^{(i)}|x^{(i)};\theta))\\
+                &= \sum_{i=1}^m y^{(i)}\theta^T x^{(i)} -log(y^{(i)}!) - e^{\theta^Tx^{(i)}}\\
+        \frac{\partial}{\partial \theta_j}l(\theta) &= \sum_{i=1}^m y^{(i)}\theta_jx^{(i)}_j- \theta_jx_j^{(i)}e^{\theta^Tx^{(i)}}\\
+                                                    &= \sum_{i=1}^m (y^{(i)}\theta_j-\theta_je^{\theta^Tx^{(i)}})x_j^{(i)}\\
+        \theta_j := \theta_j + \alpha(y^{(i)}\theta_j-\theta_je^{\theta^Tx^{(i)}})x_j^{(i)}
+    \end{aligned}
+    $$
 \end{answer}

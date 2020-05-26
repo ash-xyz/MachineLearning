@@ -1,2 +1,19 @@
 \begin{answer}
+    Writing the Poisson distribution as:
+    $$
+    \begin{aligned}
+        p(y;\lambda) &= \frac{exp(-\lambda)\lambda^{y}}{y!}\\
+        &= \frac{1}{y!}exp(-\lambda) + exp(log(\lambda^y))\\
+        &= \frac{1}{y!}exp(-\lambda + ylog(\lambda))
+    \end{aligned}
+    $$
+    Hence,
+    $$
+    \begin{aligned}
+        b(y) = \frac{1}{y!}\\
+        n = log(\lambda)\\
+        T(y) = y\\
+        a(n) = e^n
+    \end{aligned}
+    $$
 \end{answer}
