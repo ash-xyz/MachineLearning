@@ -54,13 +54,18 @@ class GDA(LinearModel):
         phi = (y == 1).sum()/m
         mu_0 = x[y == 0].sum(axis=0) / (y == 0).sum()
         mu_1 = x[y == 1].sum(axis=0)/(y == 1).sum()
-        sigma = (1/m)*(x[y == 0] - mu_0).T.dot(x[y == 1] - mu_0)
+        diff = x.copy()
+        diff[y == 0] -= mu_0
+        diff[y == 1] -= mu_1
+        sigma = (1 / m) * diff.T.dot(diff)
         # Write theta in terms of the parameters
         sigma_inverse = np.linalg.inv(sigma)
         theta = sigma_inverse.dot(mu_1-mu_0)
-        theta = np.hstack([0.5 * (mu_0.T.dot(sigma_inverse).dot(mu_0) -
-                                  mu_1.T.dot(sigma_inverse).dot(mu_1)) - np.log((1 - phi) / phi), theta])
+        theta0 = 0.5 * (mu_0.T.dot(sigma_inverse).dot(mu_0) - mu_1.T.dot(sigma_inverse).dot(mu_1)) - np.log((1 - phi) / phi)
+        theta0 = np.array([theta0])
+        theta = np.hstack([theta0, theta])
         self.theta = theta
+        return theta
         # *** END CODE HERE ***
 
     def predict(self, x):
