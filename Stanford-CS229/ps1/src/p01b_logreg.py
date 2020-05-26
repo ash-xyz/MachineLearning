@@ -16,7 +16,7 @@ def main(train_path, eval_path, pred_path):
 
     # *** START CODE HERE ***
     # Train a logistic regression classifier
-    model = LogisticRegression(eps=1e-5)
+    model = LogisticRegression()
     model.fit(x_train, y_train)
     # Plot decision boundary on top of validation set set
     x_val, y_val = util.load_dataset(eval_path, add_intercept=True)
