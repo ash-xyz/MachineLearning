@@ -1,4 +1,10 @@
 \begin{answer}
-    The problem seems to lie within the fact that data set B is linearly seperable. Hence it being a scaling issue.\\
-    Taking a look at the log likelihood which linear regression wants maximize explains why this is the case.
+    The problem seems to lie within the fact that data set B is linearly separable. Hence it being a scaling issue.\\
+    See src/p01.ipynb\\
+    Logistic regression attempts to maximize the log likelihood:
+    $$
+    l(\theta) = \sum_{i=1}^m y^{(i)}log\ h(x^{(i)}) + (1-y^{(i)})log(1-h(x^{(i)}))
+    $$
+    Where $h_{\theta}$ is the sigmoid function.\\
+    Since the data of B is linearly separable the length of $\theta$ can be made arbitrarily long\\
 \end{answer}
