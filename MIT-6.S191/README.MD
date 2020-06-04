@@ -2,4 +2,4 @@
 
 I got the labs from https://github.com/aamini/introtodeeplearning/
 
-To run the packages ensure you follow the install instructions from the source repo
+You can follow along using their website http://introtodeeplearning.com/
