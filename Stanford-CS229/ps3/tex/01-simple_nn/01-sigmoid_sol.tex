@@ -1,2 +1,27 @@
 \begin{answer}
- \end{answer}
+    Knowing the o is the output of the sigmoid function, let $z^{h_i}$ and $z^o$ denote the inputs to the sigmoid function at the hidden and output layers respectively.\\
+    $$
+        \frac{\partial l^{(i)}}{\partial w^{[1]}_{1,2}} = \frac{\partial l^{(i)}}{\partial o^{(i)}}\frac{\partial o^{(i)}}{\partial h_2^{(i)}}\frac{\partial h_2^{(i)}}{\partial w^{[1]}_{1, 2}}
+    $$
+    $l^{(i)} = (o^{(i)} - y^{(i)})^2$,
+    $$
+        \frac{\partial l^{(i)}}{\partial o^{(i)}} = 2(o^{(i)} - y^{(i)})
+    $$
+    $o^{(i)} = \sigma(w^{[2]}_0 + w^{[2]}_1 h_1^{(i)} + w_2^{[2]}h_2^{(i)} + w_3^{[3]}h_3^{(i)})$ ,
+    $$
+        \frac{\partial o^{(i)}}{\partial h_2^{(i)}} = o^{(i)}(1 - o^{(i)})w_2^{[2]}
+    $$
+    $h_2^{(i)} = \sigma(w^{[1]}_{0, 2}  + w^{[1]}_{1, 2}x^{(i)}_1+ w^{[1]}_{2, 2}x^{(i)}_2)$,
+    $$
+        \frac{\partial h_2^{(i)}}{\partial w^{[1]}_{1, 2}} = h_2^{(i)}(1- h_2^{(i)}) x_1^{(i)}
+    $$
+    And since we know,
+    $$
+    \sigma(z)^{'} = \sigma(z)(1-\sigma(z))
+    $$
+    Combining them we get
+    $$
+        \frac{\partial l}{\partial w^{[1]}_{1, 2}} = \sum_{i=1}^m 2(o^{(i)} - y^{(i)})o^{(i)}(1 -  o^{(i)})\sigma(w^{[1]}_{0, 2}  + w^{[1]}_{1, 2}x^{(i)}_1+ w^{[1]}_{2, 2}x^{(i)}_2)(1 - \sigma(w^{[1]}_{0, 2}  + w^{[1]}_{1, 2}x^{(i)}_1+ w^{[1]}_{2, 2}x^{(i)}_2))w_2^{[2]}x_1^{(i)}
+    $$
+    %\frac{\partial }{\partial }
+\end{answer}

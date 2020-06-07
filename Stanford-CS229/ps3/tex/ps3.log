@@ -1,0 +1,389 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.26)  7 JUN 2020 23:41
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/ps3.tex
+(/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/ps3.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@tempdima=\dimen140
+\caption@indent=\dimen141
+\caption@parindent=\dimen142
+\caption@hangindent=\dimen143
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count175
+\c@continuedfloat=\count176
+) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip49
+\enit@outerparindent=\dimen144
+\enit@toks=\toks15
+\enit@inbox=\box45
+\enit@count@id=\count177
+\enitdp@description=\count178
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+\c@subfigure=\count179
+\c@subtable=\count180
+) (/usr/share/texlive/texmf-dist/tex/latex/psfrag/psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count181
+\pfg@scount=\count182
+\pfg@temp=\write3
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen145
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen146
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count183
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count184
+\leftroot@=\count185
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count186
+\DOTSCASE@=\count187
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box46
+\strutbox@=\box47
+\big@size=\dimen147
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count188
+\c@MaxMatrixCols=\count189
+\dotsspace@=\muskip16
+\c@parentequation=\count190
+\dspbrk@lvl=\count191
+\tag@help=\toks17
+\row@=\count192
+\column@=\count193
+\maxfields@=\count194
+\andhelp@=\toks18
+\eqnshift@=\dimen148
+\alignsep@=\dimen149
+\tagshift@=\dimen150
+\tagwidth@=\dimen151
+\totwidth@=\dimen152
+\lineht@=\dimen153
+\@envbody=\toks19
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read2
+\epsfframemargin=\dimen154
+\epsfframethickness=\dimen155
+\epsfrsize=\dimen156
+\epsftmp=\dimen157
+\epsftsize=\dimen158
+\epsfxsize=\dimen159
+\epsfysize=\dimen160
+\pspoints=\dimen161
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks21
+\verbatim@line=\toks22
+\verbatim@in@stream=\read3
+) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+) (/usr/share/texlive/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count195
+\lst@gtempboxa=\box48
+\lst@token=\toks23
+\lst@length=\count196
+\lst@currlwidth=\dimen162
+\lst@column=\count197
+\lst@pos=\count198
+\lst@lostspace=\dimen163
+\lst@width=\dimen164
+\lst@newlines=\count199
+\lst@lineno=\count266
+\lst@maxwidth=\dimen165
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count267
+\lst@skipnumbers=\count268
+\lst@framebox=\box49
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count269
+\float@exts=\toks24
+\float@box=\box50
+\@float@everytoks=\toks25
+\@floatcapt=\box51
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count270
+\l__pdf_internal_box=\box52
+) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/ps3.aux)
+\openout1 = `ps3.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count271
+\scratchdimen=\dimen166
+\scratchbox=\box53
+\nofMPsegments=\count272
+\nofMParguments=\count273
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count274
+\MPscratchDim=\dimen167
+\MPnumerator=\count275
+\makeMPintoPDFobject=\count276
+\everyMPtoPDFconversion=\toks27
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count277
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--106
+
+ []
+
+(/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/00-instructions/00-main.tex (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/00-instructions/01-general.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/00-instructions/02-submission.tex))
+
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 115.
+
+(/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/01-simple_nn/00-main.tex [1
+Non-PDF special ignored!
+<special> header=psfrag.pro
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+<../data/nn_plot.pdf, id=12, 462.52798pt x 346.89601pt>
+File: ../data/nn_plot.pdf Graphic file (type pdf)
+<use ../data/nn_plot.pdf>
+Package pdftex.def Info: ../data/nn_plot.pdf  used on input line 7.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+<../data/nn_architecture.pdf, id=13, 963.6pt x 542.025pt>
+File: ../data/nn_architecture.pdf Graphic file (type pdf)
+<use ../data/nn_architecture.pdf>
+Package pdftex.def Info: ../data/nn_architecture.pdf  used on input line 15.
+(pdftex.def)             Requested size: 120.44768pt x 108.40308pt.
+ (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/01-simple_nn/01-sigmoid.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--4
+
+ []
+
+[2
+
+ <../data/nn_architecture.pdf> <../data/nn_plot.pdf
+
+pdfTeX warning: pdflatex (file ../data/nn_plot.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/01-simple_nn/01-sigmoid_sol.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+
+ []
+
+
+Overfull \hbox (39.99901pt too wide) detected at line 25
+[] \OT1/cmr/m/n/10 = [] 2(\OML/cmm/m/it/10 o[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 o[]\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 o[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ^^[\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 w[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 w[]x[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 w[]x[]\OT1/cmr/m/n/10 )(1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^[\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 w[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 w[]x[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 w[]x[]\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 w[]x[]
+ []
+
+)) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/01-simple_nn/02-step_function.tex [3] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/01-simple_nn/02-step_function_sol.tex)) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/01-simple_nn/03-linear.tex [4
+
+] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/01-simple_nn/03-linear_sol.tex))) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/02-kl_divergence/00-main.tex [5
+
+] [6
+
+] [7] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/02-kl_divergence/01-nonnegative.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--19
+
+ []
+
+(/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/02-kl_divergence/01-nonnegative_sol.tex)) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/02-kl_divergence/02-chain_rule.tex [8]
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+(/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/02-kl_divergence/02-chain_rule_sol.tex)) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/02-kl_divergence/03-max_likelihood.tex [9
+
+] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/02-kl_divergence/03-max_likelihood_sol.tex))) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/03-natural_grad/00-main.tex [10
+
+] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/03-natural_grad/01-exp_score.tex [11
+
+] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/03-natural_grad/01-exp_score_sol.tex)) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/03-natural_grad/02-cov_score.tex [12] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/03-natural_grad/02-cov_score_sol.tex)) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/03-natural_grad/03-nhess_score.tex [13
+
+] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/03-natural_grad/03-nhess_score_sol.tex)) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/03-natural_grad/04-kl_taylor.tex [14
+
+] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/03-natural_grad/04-kl_taylor_sol.tex)) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/03-natural_grad/05-lagrange.tex [15
+
+] [16
+
+] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/03-natural_grad/05-lagrange_sol.tex)) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/03-natural_grad/06-update_rule.tex [17] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/03-natural_grad/06-update_rule_sol.tex))) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/04-semi_supervised_em/00-main.tex [18
+
+] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/04-semi_supervised_em/01-convergence.tex (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/04-semi_supervised_em/01-convergence-sol.tex)) [19
+
+] [20] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/04-semi_supervised_em/02-e-step.tex (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/04-semi_supervised_em/02-e-step-sol.tex)) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/04-semi_supervised_em/03-m-step.tex [21
+
+] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/04-semi_supervised_em/03-m-step-sol.tex)) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/04-semi_supervised_em/04-impl-unsupervised.tex [22
+
+] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/04-semi_supervised_em/04-impl-unsupervised-sol.tex)) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/04-semi_supervised_em/05-impl-semi-supervised.tex [23
+
+] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/04-semi_supervised_em/05-impl-semi-supervised-sol.tex)) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/04-semi_supervised_em/06-comparison.tex [24
+
+] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/04-semi_supervised_em/06-comparison-sol.tex))) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/05-k_means/00-main.tex [25
+
+] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/05-k_means/01-k_means_impl.tex (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/05-k_means/01-k_means_impl_sol.tex)) (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/05-k_means/02-compression_factor.tex [26
+
+] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/05-k_means/02-compression_factor_sol.tex))) [27
+
+] (/home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/ps3.aux) ) 
+Here is how much of TeX's memory you used:
+ 6226 strings out of 481239
+ 102173 string characters out of 5920377
+ 330206 words of memory out of 5000000
+ 21246 multiletter control sequences out of 15000+600000
+ 539870 words of font info for 53 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,14n,42p,942b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on /home/ash/Desktop/Projects/MachineLearning/Stanford-CS229/ps3/tex/ps3.pdf (27 pages, 459168 bytes).
+PDF statistics:
+ 209 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+
