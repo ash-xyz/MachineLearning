@@ -8,9 +8,11 @@ import numpy as np
 
 from .image_utils import SQUEEZENET_MEAN, SQUEEZENET_STD
 
-dtype = torch.FloatTensor
+#dtype = torch.FloatTensor
 # Uncomment out the following line if you're on a machine with a GPU set up for PyTorch!
-#dtype = torch.cuda.FloatTensor
+dtype = torch.cuda.FloatTensor
+
+
 def content_loss(content_weight, content_current, content_original):
     """
     Compute the content loss for style transfer.
@@ -26,9 +28,10 @@ def content_loss(content_weight, content_current, content_original):
     """
     # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
-    pass
+    return content_weight*(((content_current-content_original).pow(2)).sum())
 
     # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
+
 
 def gram_matrix(features, normalize=True):
     """
@@ -45,12 +48,19 @@ def gram_matrix(features, normalize=True):
       (optionally normalized) Gram matrices for the N input images.
     """
     # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-
-    pass
-
+    N, C, H, W = features.shape
+    features = features.reshape(N, C, -1)
+    gram = features.new_zeros((N, C, C))
+    for i in range(N):
+        gram[i] += features[i] @ features[i].T
+    if normalize:
+        gram /= H*W*C
+    return gram
     # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
 # Now put it together in the style_loss function...
+
+
 def style_loss(feats, style_layers, style_targets, style_weights):
     """
     Computes the style loss at a set of layers.
@@ -73,9 +83,14 @@ def style_loss(feats, style_layers, style_targets, style_weights):
     # not be very much code (~5 lines). You will need to use your gram_matrix function.
     # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
-    pass
+    loss = 0
+    for i in range(len(style_weights)):
+        t = gram_matrix(feats[style_layers[i]])
+        loss += style_weights[i]*torch.sum((t-style_targets[i])**2)
+    return loss
 
     # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
+
 
 def tv_loss(img, tv_weight):
     """
@@ -92,9 +107,11 @@ def tv_loss(img, tv_weight):
     # Your implementation should be vectorized and not require any loops!
     # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
-    pass
+    return tv_weight*(torch.pow(img[:,:,1:]-img[:,:,:-1],2).sum()+torch.pow(img[:,:,:,1:]-img[:,:,:,:-1],2).sum())
 
     # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
+
+
 def preprocess(img, size=512):
     """ Preprocesses a PIL JPG Image object to become a Pytorch tensor
         that is ready to be used as an input into the CNN model.
@@ -115,6 +132,7 @@ def preprocess(img, size=512):
     ])
     return transform(img)
 
+
 def deprocess(img):
     """ De-processes a Pytorch tensor from the output of the CNN model to become
         a PIL JPG Image that we can display, save, etc.
@@ -133,12 +151,15 @@ def deprocess(img):
     """
     transform = T.Compose([
         T.Lambda(lambda x: x[0]),
-        T.Normalize(mean=[0, 0, 0], std=[1.0 / s for s in SQUEEZENET_STD.tolist()]),
-        T.Normalize(mean=[-m for m in SQUEEZENET_MEAN.tolist()], std=[1, 1, 1]),
+        T.Normalize(mean=[0, 0, 0], std=[
+                    1.0 / s for s in SQUEEZENET_STD.tolist()]),
+        T.Normalize(
+            mean=[-m for m in SQUEEZENET_MEAN.tolist()], std=[1, 1, 1]),
         T.Lambda(rescale),
         T.ToPILImage(),
     ])
     return transform(img)
+
 
 def rescale(x):
     """ A function used internally inside `deprocess`.
@@ -150,11 +171,14 @@ def rescale(x):
     x_rescaled = (x - low) / (high - low)
     return x_rescaled
 
-def rel_error(x,y):
+
+def rel_error(x, y):
     return np.max(np.abs(x - y) / (np.maximum(1e-8, np.abs(x) + np.abs(y))))
 
 # We provide this helper code which takes an image, a model (cnn), and returns a list of
 # feature maps, one per layer.
+
+
 def extract_features(x, cnn):
     """
     Use the CNN to extract features from the input image x.
@@ -178,12 +202,10 @@ def extract_features(x, cnn):
         prev_feat = next_feat
     return features
 
-#please disregard warnings about initialization
+# please disregard warnings about initialization
+
+
 def features_from_img(imgpath, imgsize, cnn):
     img = preprocess(PIL.Image.open(imgpath), size=imgsize)
     img_var = img.type(dtype)
     return extract_features(img_var, cnn), img_var
-
-
-
-
